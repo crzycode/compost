@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main_navbar_1{
+    height: 100px;
+    position: relative;
+    
+}
+.Contact_part{
+    border-bottom: 2px solid green;
+    width: 70%;
+    height: 100%;
+    background-color: cadetblue;
+}
+.text_right{
+    text-align: right;
+}
+.Contact_inner{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: auto;
+    height: 100%;
+
+}
+.content_wrap{
+    
+  
+    display: flex;
+    justify-content: flex-end;
+
+}
+.list_social{
+    display: flex;
+    list-style: none;
+    width: 20%;
+    justify-content: space-between;
+}
+.main_navbar_2{
+    height: 50px;
+justify-content: flex-end;
+ 
+    
+}
+.menu_bar{
+    height: 100%;
+    width: 60%;
+   
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    border: 1px solid whitesmoke;
+    padding: 5px;
+}
+.menu:hover{
+    border: 1px solid black;
+   
+    
+}
+.slick_slider{
+    position: sticky;
+}
+
+.slick-arrow{
+    z-index: 111 !important;
+    height: 100%;
+    width: 100px;
+    transition: 1s all;
+   
+
+}
+.slick-arrow:hover{
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s all;
+
+}
+.slick-dots {
+    position: absolute !important;
+    bottom: 25px !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    text-align: center !important;
+}
+.home_container{
+    
+    background-color: burlywood;
+    width: 100%;
+    height: 50vh !important;
+    margin-top: -5px;
+}
+.home_container_card{
+    background-color: whitesmoke;
+    height: 100vh !important;
+}
+.home_container_product{
+    background-color: whitesmoke;
+    
+}
+.border_right{
+    border-right: 2px solid green;
+}
+.logo_part{
+    background-color: red;
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+.home_container_footer{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top:20px;
+    padding-bottom: 40px;
+}
+
+.video_container{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+   
+    transform: translate(1px, -50%);
+    /* top: 56px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.video_inner_container{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+   background-color: red;
+ 
+    /* top: 56px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.card_container_wrap{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    /* bottom: 0px; */
+    /* margin-bottom: 0px; */
+    top: 50%;
+    transform: translate(0px, -30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
